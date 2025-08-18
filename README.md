@@ -9,5 +9,5 @@ The **Konigsberg bridges problem** asks to start at any land areas of the city, 
 ## Topics:
 1) **What is a graph?** A graph is a mathematical structure to represent *relationships* between *objects*. Objects are **nodes** (vertices), and relationships are **edges** (links). 
 Here, we review the graph definition, and discuss **undirected** graphs versus **directed** graphs with examples in Python.
-2) **Graph: Adjacency matrix** For a graph with *n* nodes, the **adjacency matrix** is of size *n*-by-*n*. For **simple graphs**, the entries of the adjacency matrix is composed of zeroes and ones. For undirected graphs this matrix is *symmetric*.
+2) **Graph: Adjacency matrix** For a graph with *n* nodes, the **adjacency matrix** is of size *n*-by-*n*. For **simple graphs**, the entries of the adjacency matrix is composed of zeros and ones. For undirected graphs, this matrix is *symmetric*.
 Here, we give the Python code for defining the adjacency matrix for different types of graphs.
