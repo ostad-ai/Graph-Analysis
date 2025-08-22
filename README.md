@@ -11,6 +11,6 @@ The **Konigsberg bridges problem** asks to start at any land areas of the city, 
 Here, we review the graph definition, and discuss **undirected** graphs versus **directed** graphs with examples in Python.
 2) **Graph: Adjacency matrix** For a graph with *n* nodes, the **adjacency matrix** is of size *n*-by-*n*. For **simple graphs**, the entries of the adjacency matrix is composed of zeros and ones. For undirected graphs, this matrix is *symmetric*.
 Here, we give the Python code for defining the adjacency matrix for different types of graphs.
-3) **Graph: Node degree** The dgree of a node in graph is a simple concept which is quite useful in analyzing and understanding the graph. The degree of a node is the number of edges connected to the node. The definition of node degree for directed graphs includes in-degrees and out-degrees. 
+3) **Graph: Node degree** The **degree** of a node in graph is a simple concept which is quite useful in analyzing and understanding the graph. The degree of a node is the number of edges connected to the node. The definition of node degree for directed graphs includes in-degrees and out-degrees. 
 We have some interesting formulae regarding the node degrees. For example, the **degree sum formula** (handshaking lemma) states that the sum of degrees of nodes in a graph is twice the number of the edges of the graph. 
 Here, we review the concept of degrees in graphs by examples in Python.
