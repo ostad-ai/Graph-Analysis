@@ -20,3 +20,5 @@ Here, we implement a Python class for a graph which holds the adjacency list of 
 The **Python** code of this NoteBook contains a small **graph analyzer** implemented from scratch for walks, trails, paths, cycles, and Eulerian trail or circuit.
 6) **Subgraph:** A **subgraph** is a graph formed from a subset of the nodes and edges of a larger graph. A subgraph preserves the connections from the original graph, but may contain fewer nodes and edges. 
 Here, we review the concept of subgraph and some of its types. Also, we provide a *Python* function from scratch to check if a graph is a subgraph of another graph. We also use some functions available by *NetworkX* too, for subgraphs. 
+7) **Clique:** A **clique** is subset of nodes in a graph, which for its every two distinct nodes, there is an edge in the graph. In other words, a clique forms a **complete** subgraph.
+In this Notebook, we review and implement the **Bron-Kerbosch** algorithm from scratch to find all maximal cliques in a given undirected graph. Moreover, we use the function **find_cliques** in *NetworkX* to compare with our results.
