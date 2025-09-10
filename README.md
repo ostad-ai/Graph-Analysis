@@ -22,5 +22,5 @@ The **Python** code of this NoteBook contains a small **graph analyzer** impleme
 Here, we review the concept of subgraph and some of its types. Also, we provide a *Python* function from scratch to check if a graph is a subgraph of another graph. We also use some functions available by *NetworkX* too, for subgraphs. 
 7) **Clique:** A **clique** is subset of nodes in a graph, which for its every two distinct nodes, there is an edge in the graph. In other words, a clique forms a **complete** subgraph.
 In this Notebook, we review and implement the **Bron-Kerbosch** algorithm from scratch to find all maximal cliques in a given undirected graph. Moreover, we use the function **find_cliques** in *NetworkX* to compare with our results.
-8) **Trees:** A tree is an **undirected** graph which is **connected** and **acyclic**. Or you may say a tree is an undirected connected graph with n nodes which has n-1 edges. 
+8) **Trees:** A **tree** is an **undirected** graph which is **connected** and **acyclic**. Or you may say a tree is an undirected connected graph with n nodes which has n-1 edges. 
 Here, we review trees in graph theory and express different kinds of them. Then, we bring some Python code to build trees and do some operations on them. As a bonus, we also create a simple decision tree for medical diagnosis. 
