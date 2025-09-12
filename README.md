@@ -23,4 +23,6 @@ Here, we review the concept of subgraph and some of its types. Also, we provide 
 7) **Clique:** A **clique** is subset of nodes in a graph, which for its every two distinct nodes, there is an edge in the graph. In other words, a clique forms a **complete** subgraph.
 In this Notebook, we review and implement the **Bron-Kerbosch** algorithm from scratch to find all maximal cliques in a given undirected graph. Moreover, we use the function **find_cliques** in *NetworkX* to compare with our results.
 8) **Trees:** A **tree** is an **undirected** graph which is **connected** and **acyclic**. Or you may say a tree is an undirected connected graph with n nodes which has n-1 edges. 
-Here, we review trees in graph theory and express different kinds of them. Then, we bring some Python code to build trees and do some operations on them. As a bonus, we also create a simple decision tree for medical diagnosis. 
+Here, we review trees in graph theory and express different kinds of them. Then, we bring some Python code to build trees and do some operations on them. As a bonus, we also create a simple decision tree for medical diagnosis.
+9) **Depth-first search:** A **depth-first search** (**DFS**) is a search algorithm that is used to traverse graphs or trees. A DFS can be implemented in **recursive** way or **iterative** way. 
+Here, we implement both the *recursive* and *iterative* versions, and test them by a given graph. We also implement a DFS that finds a path between two nodes, and extend it to find all paths between two nodes.
